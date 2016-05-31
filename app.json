@@ -1,0 +1,5 @@
+{
+  "name": "Flexbot2 heroku",
+  "description": "test using docker",
+  "image": "rickmed/flexbot2:flexbot2.0.02"
+}
