@@ -1,0 +1,7 @@
+apps:
+  - script: ./src
+    watch: true
+    ignore_watch:
+      - node_modules
+      - nedb-data
+      - ./logs

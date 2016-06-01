@@ -1,0 +1,33 @@
+{
+  "name": "flexbot",
+  "description": "",
+  "version": "2.0.0",
+  "main": "src/",
+  "author": "Ricardo Medina",
+  "engines": {
+    "node": ">= 0.12.0"
+  },
+  "scripts": {
+    "start": "pm2 start src/",
+    "start-dev": "pm2 start process.yml --no-daemon",
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "compression": "^1.6.2",
+    "cors": "^2.7.1",
+    "feathers": "^2.0.1",
+    "feathers-authentication": "^0.7.7",
+    "feathers-configuration": "^0.2.3",
+    "feathers-errors": "^2.2.0",
+    "feathers-hooks": "^1.5.4",
+    "feathers-nedb": "^2.2.3",
+    "feathers-rest": "^1.4.1",
+    "feathers-socketio": "^1.4.1",
+    "nedb": "^1.8.0",
+    "passport": "^0.3.2",
+    "serve-favicon": "^2.3.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+  }
+}
