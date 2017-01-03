@@ -52,7 +52,7 @@ exports.frames = {
 exports.flexUrl = 'http://ven.flexmls.com/'
 
 exports.centrifuga = {
-  regex: /[CENTRIFUGA]{3,7}/g,
+  regex: /[CENTRIFUGA]{2,7}/g,
   keys: {
     C: 1,
     E: 2,
